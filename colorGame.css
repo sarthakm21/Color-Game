@@ -1,0 +1,80 @@
+body{
+  background-color: #232323;
+}
+
+.square{
+  width: 30%;
+  background-color: #232323;
+  margin: 1.6%;
+  padding-top: 30%;
+  float: left;
+  border-radius: 10%;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.container{
+  width: 40%;
+  margin: 30px auto;
+}
+
+
+h1{
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+}
+
+.title{
+  background-color: #fcc026;
+  padding-bottom: 20px;
+  transition: background-color 0.5s;
+}
+#correct{
+  font-size: 60px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+
+#message{
+  display: flex;
+  align-items: center;
+  color: black;
+  margin: 0 auto;
+
+}
+
+.topnav{
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  margin: 0;
+  background-color: #07ede2;
+  font-family: Raleway;
+  //A DARKER SHADE FOR HOVER #00bdb4
+}
+
+.nav:hover{
+  background-color: #00bdb4;
+  cursor: pointer;
+
+}
+
+.nav{
+  padding: 10px;
+  transition: background-color 0.5s;
+}
+
+.right{
+  align-items: flex-end;
+  margin-right: 5px;
+}
+
+#newColors{
+  margin-left: 5px;
+}
